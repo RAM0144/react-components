@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types */
-import propTypes from "prop-types";
+
+import PropTypes from "prop-types";
 import "./img.css"
 const ImageFeatures = (props)=>{
  console.log(props)
@@ -47,14 +47,17 @@ const ImageFeatures = (props)=>{
         
      };
      
-    ImageFeatures.props = {
-        title      : propTypes.string,
-        discription: propTypes.string,
-        image      : propTypes.string,
-        headline   : propTypes.string,
-        people     : propTypes.string,
-        name       : propTypes.string,
-        feedback   : propTypes.string,
+    ImageFeatures.propTypes = {
+        isTrue     : PropTypes.bool,
+        isDone     : PropTypes.bool,
+        isCorrect  : PropTypes.bool,
+        title      : PropTypes.string,
+        discription: PropTypes.string,
+        image      : PropTypes.string,
+        headline   : PropTypes.string,
+        people     : PropTypes.string,
+        name       : PropTypes.string,
+        feedback   : PropTypes.string,
     };
 
 

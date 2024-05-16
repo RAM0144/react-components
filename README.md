@@ -1,5 +1,11 @@
 # React + Vite
 
+Im created three Components- Features.jsx,imageFeature.jsx,Footer.jsx and styling img.css
+
+
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
